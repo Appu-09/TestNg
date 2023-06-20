@@ -1,0 +1,49 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Example Test Suite">
+
+    <listeners>
+        <listener class-name="TestListener"></listener>
+    </listeners>
+
+    <test name="Smoke Test">
+        <groups>
+            <run>
+                <include name="smoke" />
+            </run>
+        </groups>
+        <classes>
+            <class name="ExampleTests" />
+        </classes>
+    </test>
+
+    <test name="Regression Test">
+        <groups>
+            <run>
+                <include name="regression" />
+            </run>
+        </groups>
+        <classes>
+            <class name="ExampleTests" />
+        </classes>
+    </test>
+
+    <test name="Acceptance Test">
+        <groups>
+            <run>
+                <include name="acceptance" />
+            </run>
+        </groups>
+        <classes>
+            <class name="ExampleTests" />
+        </classes>
+    </test>
+
+    <test name="Parameterized Test">
+        <parameter name="param" value="value1">
+            <classes>
+                <class name="ExampleTests"/>
+            </classes>
+        </parameter>
+    </test>
+</suite>
