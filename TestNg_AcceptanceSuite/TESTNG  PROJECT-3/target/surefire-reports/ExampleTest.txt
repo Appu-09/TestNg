@@ -1,0 +1,27 @@
+-------------------------------------------------------------------------------
+Test set: ExampleTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.217 sec <<< FAILURE!
+testAssertEqualsFailure(ExampleTest)  Time elapsed: 0.008 sec  <<< FAILURE!
+java.lang.AssertionError: The expected value is not equal to the actual value expected [10] but found [20]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1240)
+	at ExampleTest.testAssertEqualsFailure(ExampleTest.java:37)
+
+testAssertFalseFailure(ExampleTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The value should be false expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertFalse(Assert.java:78)
+	at ExampleTest.testAssertFalseFailure(ExampleTest.java:60)
+
+testAssertTrueFailure(ExampleTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+java.lang.AssertionError: The value should be true. expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at ExampleTest.testAssertTrueFailure(ExampleTest.java:48)
+

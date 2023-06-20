@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Acceptance Test Suite">
+    <test name="Acceptance Test">
+        <classes>
+            <class name="UserRegistrationTest">
+                <methods>
+                    <include name="verifyUserRegistrationFunctionality"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
