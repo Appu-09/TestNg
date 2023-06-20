@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-12T17:14:28 IST" name="Command line suite" finished-at="2023-04-12T17:14:28 IST" duration-ms="41">
+    <groups>
+      <group name="orderBo">
+        <method signature="TestOrder.testFindOrder()[pri:0, instance:TestOrder@5f0fd5a0]" name="testFindOrder" class="TestOrder"/>
+        <method signature="TestOrder.testMakeEmptyOrder()[pri:0, instance:TestOrder@5f0fd5a0]" name="testMakeEmptyOrder" class="TestOrder"/>
+        <method signature="TestOrder.testMakeOrder()[pri:0, instance:TestOrder@5f0fd5a0]" name="testMakeOrder" class="TestOrder"/>
+        <method signature="TestOrder.testUpdateOrder()[pri:0, instance:TestOrder@5f0fd5a0]" name="testUpdateOrder" class="TestOrder"/>
+      </group> <!-- orderBo -->
+      <group name="save">
+        <method signature="TestOrder.testMakeEmptyOrder()[pri:0, instance:TestOrder@5f0fd5a0]" name="testMakeEmptyOrder" class="TestOrder"/>
+        <method signature="TestOrder.testMakeOrder()[pri:0, instance:TestOrder@5f0fd5a0]" name="testMakeOrder" class="TestOrder"/>
+      </group> <!-- save -->
+      <group name="brokenTests">
+        <method signature="TestDatabase.testConnectMySQL()[pri:0, instance:TestDatabase@723e88f9]" name="testConnectMySQL" class="TestDatabase"/>
+      </group> <!-- brokenTests -->
+      <group name="db-nosql">
+        <method signature="TestDatabase.testConnectMongoDB()[pri:0, instance:TestDatabase@723e88f9]" name="testConnectMongoDB" class="TestDatabase"/>
+      </group> <!-- db-nosql -->
+      <group name="db">
+        <method signature="TestDatabase.testConnectMsSQL()[pri:0, instance:TestDatabase@723e88f9]" name="testConnectMsSQL" class="TestDatabase"/>
+        <method signature="TestDatabase.testConnectMySQL()[pri:0, instance:TestDatabase@723e88f9]" name="testConnectMySQL" class="TestDatabase"/>
+        <method signature="TestDatabase.testConnectOracle()[pri:0, instance:TestDatabase@723e88f9]" name="testConnectOracle" class="TestDatabase"/>
+      </group> <!-- db -->
+    </groups>
+    <test started-at="2023-04-12T17:14:28 IST" name="Command line test" finished-at="2023-04-12T17:14:28 IST" duration-ms="41">
+      <class name="TestConfig">
+        <test-method is-config="true" signature="testBeforeSuite()[pri:0, instance:TestConfig@5f20155b]" started-at="2023-04-12T17:14:28 IST" name="testBeforeSuite" finished-at="2023-04-12T17:14:28 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeSuite -->
+        <test-method is-config="true" signature="testBeforeTest()[pri:0, instance:TestConfig@5f20155b]" started-at="2023-04-12T17:14:28 IST" name="testBeforeTest" finished-at="2023-04-12T17:14:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBeforeTest -->
+        <test-method is-config="true" signature="testAfterTest()[pri:0, instance:TestConfig@5f20155b]" started-at="2023-04-12T17:14:28 IST" name="testAfterTest" finished-at="2023-04-12T17:14:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterTest -->
+        <test-method is-config="true" signature="testAfterSuite()[pri:0, instance:TestConfig@5f20155b]" started-at="2023-04-12T17:14:28 IST" name="testAfterSuite" finished-at="2023-04-12T17:14:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAfterSuite -->
+      </class> <!-- TestConfig -->
+      <class name="TestOrder">
+        <test-method signature="testFindOrder()[pri:0, instance:TestOrder@5f0fd5a0]" started-at="2023-04-12T17:14:28 IST" name="testFindOrder" finished-at="2023-04-12T17:14:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFindOrder -->
+        <test-method signature="testMakeEmptyOrder()[pri:0, instance:TestOrder@5f0fd5a0]" started-at="2023-04-12T17:14:28 IST" name="testMakeEmptyOrder" finished-at="2023-04-12T17:14:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMakeEmptyOrder -->
+        <test-method signature="testMakeOrder()[pri:0, instance:TestOrder@5f0fd5a0]" started-at="2023-04-12T17:14:28 IST" name="testMakeOrder" finished-at="2023-04-12T17:14:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMakeOrder -->
+        <test-method signature="testUpdateOrder()[pri:0, instance:TestOrder@5f0fd5a0]" started-at="2023-04-12T17:14:28 IST" name="testUpdateOrder" finished-at="2023-04-12T17:14:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateOrder -->
+      </class> <!-- TestOrder -->
+      <class name="TestDatabase">
+        <test-method signature="testConnectMongoDB()[pri:0, instance:TestDatabase@723e88f9]" started-at="2023-04-12T17:14:28 IST" name="testConnectMongoDB" finished-at="2023-04-12T17:14:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMongoDB -->
+        <test-method signature="testConnectMsSQL()[pri:0, instance:TestDatabase@723e88f9]" started-at="2023-04-12T17:14:28 IST" name="testConnectMsSQL" finished-at="2023-04-12T17:14:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMsSQL -->
+        <test-method signature="testConnectMySQL()[pri:0, instance:TestDatabase@723e88f9]" started-at="2023-04-12T17:14:28 IST" name="testConnectMySQL" finished-at="2023-04-12T17:14:28 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectMySQL -->
+        <test-method signature="testConnectOracle()[pri:0, instance:TestDatabase@723e88f9]" started-at="2023-04-12T17:14:28 IST" name="testConnectOracle" finished-at="2023-04-12T17:14:28 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConnectOracle -->
+      </class> <!-- TestDatabase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
