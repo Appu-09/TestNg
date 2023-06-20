@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-11T17:46:33 IST" name="Command line suite" finished-at="2023-04-11T17:46:33 IST" duration-ms="44">
+    <groups>
+    </groups>
+    <test started-at="2023-04-11T17:46:33 IST" name="Command line test" finished-at="2023-04-11T17:46:33 IST" duration-ms="44">
+      <class name="Googletest.ImagesTest">
+        <test-method signature="AddImagesTest()[pri:0, instance:Googletest.ImagesTest@6f8e8894]" started-at="2023-04-11T17:46:33 IST" name="AddImagesTest" finished-at="2023-04-11T17:46:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddImagesTest -->
+        <test-method signature="DeleteImagesTest()[pri:0, instance:Googletest.ImagesTest@6f8e8894]" started-at="2023-04-11T17:46:33 IST" name="DeleteImagesTest" finished-at="2023-04-11T17:46:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteImagesTest -->
+      </class> <!-- Googletest.ImagesTest -->
+      <class name="Googletest.GmailTest">
+        <test-method signature="LoginTest()[pri:0, instance:Googletest.GmailTest@64ec96c6]" started-at="2023-04-11T17:46:33 IST" name="LoginTest" finished-at="2023-04-11T17:46:33 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method signature="LogoutTest()[pri:0, instance:Googletest.GmailTest@64ec96c6]" started-at="2023-04-11T17:46:33 IST" name="LogoutTest" finished-at="2023-04-11T17:46:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutTest -->
+      </class> <!-- Googletest.GmailTest -->
+      <class name="Googletest.MapsTest">
+        <test-method signature="AddMapsTest()[pri:0, instance:Googletest.MapsTest@3cfdd820]" started-at="2023-04-11T17:46:33 IST" name="AddMapsTest" finished-at="2023-04-11T17:46:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddMapsTest -->
+        <test-method signature="DeleteMapsTest()[pri:0, instance:Googletest.MapsTest@3cfdd820]" started-at="2023-04-11T17:46:33 IST" name="DeleteMapsTest" finished-at="2023-04-11T17:46:33 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteMapsTest -->
+      </class> <!-- Googletest.MapsTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
